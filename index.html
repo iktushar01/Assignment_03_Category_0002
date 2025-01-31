@@ -22,30 +22,29 @@
     </style>
 </head>
 <body class="font-sora">
-    <header class="bg-gradient-to-b from-[#EFEBE3] to-[#FFFFFF]">
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] mb-32">
        
         <!-- navbar -->
-          <nav class="container mx-auto flex justify-between items-center mb-20 pt-2 hidden">
+          <nav class="container mx-auto flex justify-between items-center mb-20 pt-2 px-5 md:px-0">
             <div>
                  <img src="./c2-assets/logo-header.png" alt="">
             </div>
              <div >
-                <ul class="flex gap-8 font-medium">
+                <ul class="hidden lg:flex gap-8 font-medium">
                     <li><a href="#">Product</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
              </div>
-             <div class="flex items-center gap-4">
+             <div class="hidden lg:flex items-center gap-4 ">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
                 <button class="btn btn-outline border-green-600 text-black px-8">Login</button>
                 <button class="btn border-0 bg-green-600 hover:bg-green-900 text-white px-8">Register </button>
-                
              </div>
 
-             <div>
-                <i class="fa-solid fa-bars"></i>
+             <div class="lg:hidden ">
+                <i class="fa-solid fa-bars text-3xl"></i>
              </div>
           </nav>
           <!-- banner -->
@@ -56,7 +55,7 @@
                 Count
                 </span>  On, Prices You’ll Love!
             </h1>
-            <p class="text-center w-4/5 mx-auto ">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            <p class="text-center md:w-3/5 mx-auto text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry  staples, we’ve got you covered every day!</p>
             <div>
                 <img class="mx-auto" src="./c2-assets/hero-vegetables.png" alt="">
               </div>
@@ -64,6 +63,27 @@
           
     </header>
     <main>
+        <section>
+            <div class="container mx-auto">
+                <h3 class="text-4xl text-green-600 font-bold mb-10 mx-5 md:mx-0">Services</h3>
+                <div class="grid md:grid-cols-3 grid-row-1 gap-6 ">
+                    <div class="bg-[#EFEBE3] rounded-xl text-center p-8 mx-5 md:mx-0">
+                            <img class="bg-white p-5 rounded-full mb-3 mx-auto" src="./c2-assets/service.png" alt="">                   <h2 class="text-2xl text-black font-bold mb-3">24/7 Services</h2>
+                        <p>We are here for you round the clock! Enjoy fresh and delicious food anytime, day or night, with our 24/7 service.</p>
+                    </div>
+                    <div class="bg-[#EFEBE3] rounded-xl text-center p-8 mx-5 md:mx-0">
+                            <img class="bg-white p-5 rounded-full mb-3 mx-auto" src="./c2-assets/delivery.png" alt="">                   <h2 class="text-2xl text-black font-bold mb-3">Fast Delivery</h2>
+                        <p>Craving something tasty? Get your favorite meals delivered to your doorstep in no time with our super-fast delivery service.</p>
+                    </div>
+                    <div class="bg-[#EFEBE3] rounded-xl text-center p-8 mx-5 md:mx-0">
+                            <img class="bg-white p-5 rounded-full mb-3 mx-auto" src="./c2-assets/healthy.png" alt="">                   <h2 class="text-2xl text-black font-bold mb-3">Healthy Products  </h2>
+                        <p>We prioritize your health! Our menu features fresh, high-quality ingredients to ensure a nutritious and delicious experience.</p>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+       
 
     </main>
     <footer>
