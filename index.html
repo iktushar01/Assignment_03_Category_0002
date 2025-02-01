@@ -87,20 +87,20 @@
         </section>
         <!-- products section -->
        <section class="bg-[#EFEBE3] mb-3">
-        <div class="container mx-auto "> 
+        <div class="container mx-auto px-3 md:px-0"> 
             <h3 class="text-4xl text-green-600 font-bold mb-10 mx-5 md:mx-0 pt-32">Popular Products</h3>
             <div class="grid md:grid-cols-3  pb-32 gap-6">
                 <!-- big card 1st part-->
-                <div class="bg-[#F9DF8A] pt-8 px-8 rounded-lg md:col-span-1">
+                <div class="bg-gradient-to-br from-[#53DB3A] to-white pt-8 px-8 rounded-lg md:col-span-1">
                     <h1 class="text-white font-bold text-3xl mb-8">30% OFF</h1>
                     <p class="text-lg mb-6">Discover a world of treats, toys, and essentials handpicked for </p>
                     <button class="btn px-10 mb-8 text-2xl">Buy Now 
                     </button>
-                    <img class="ml-36 pr-2 -mt-20 w-[70%]" src="./c2-assets/vegetable-offer.png" alt="">
+                    <img class="ml-32 pr-2 -mt-20 w-[70%]" src="./c2-assets/vegetable-offer.png" alt="">
 
               </div>
                 <!-- 2nd part -->
-            <div class="grid md:grid-cols-3 grid-cols-2  gap-6 md:col-span-2">    
+            <div class="grid md:grid-cols-3 grid-cols-2  gap-2 md:gap-6 md:col-span-2">    
                      <!-- small card 1 -->
                       <div class="flex bg-white rounded-lg p-4 gap-4 items-center">
                            <div>
@@ -206,7 +206,7 @@
                             <h2 class="font-semibold">$39.99</h2>
                            </div>           
                       </div>
-                      <div class="flex bg-white rounded-lg p-4 gap-4 items-center">
+                      <div class="flex bg-white rounded-lg p-4 gap-4 items-center ">
                            <div>
                             <img class="p-2  bg-[#EFEBE3] rounded-lg" src="./c2-assets/onion.svg" alt="">
                            </div>
@@ -255,12 +255,101 @@
             </div>
             
          </section> 
-         <!--  -->
-         
-
+         <!-- FAQ section -->
+         <section class="text-black mb-32">
+            <h3 class="text-center text-black text-5xl font-semibold mb-8">Frequently Asked <span class="text-green-600">Questions</span></h3>
+  
+            <div class="hero">
+              <div class="hero-content flex-col lg:flex-row">
+                <img 
+                  src="./c2-assets/faq.png"
+                  <div class="flex flex-col gap-2">
+                    
+                    <div class="collapse collapse-arrow border-4 border-green-500">
+                      <input type="radio" name="my-accordion-2" />
+                      <div class="collapse-title text-xl font-medium">What is Nature Food?</div>
+                      <div class="collapse-content">
+                        <p>Nature Food refers to organic, natural, and chemical-free food products sourced directly from farms, ensuring the highest quality and nutrition.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow border-4 border-green-500">
+                      <input type="radio" name="my-accordion-2" />
+                      <div class="collapse-title text-xl font-medium">Are your products 100% organic?</div>
+                      <div class="collapse-content">
+                        <p>Yes, all our products are organic, non-GMO, and free from harmful chemicals or pesticides.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow border-4 border-green-500">
+                      <input type="radio" name="my-accordion-2" />
+                      <div class="collapse-title text-xl font-medium">How can I place an order?</div>
+                      <div class="collapse-content">
+                        <p>You can browse our website, add products to your cart, and complete the checkout process using your preferred payment method.</p>
+                      </div>
+                    </div>
+                    <div class="collapse collapse-arrow border-4 border-green-500">
+                      <input type="radio" name="my-accordion-2" />
+                      <div class="collapse-title text-xl font-medium">Do you offer returns or exchanges?</div>
+                      <div class="collapse-content">
+                        <p>Yes, we accept returns within 7 days of delivery for non-perishable items. Perishable items are eligible for refunds if reported within 24 hours of delivery. </p>
+                      </div>
+                      
+                    </div>
+                  </div>
+  
+                  </div>
+                  
+              </div>
+            </div>
+  
+  
+  
+           </section>
+  
+         <!-- form section -->
+         <section class="mb-40 relative z-10 ">
+            <div class="container mx-auto rounded-lg bg-[#EFEBE3]">
+                <div class=" flex flex-col lg:flex-row py-14 md:px-28 md:gap-28 justify-center items-center rounded-lg  ">
+                    <div>
+                        <img src="./c2-assets/vegetable-busket.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-4xl text-black font-bold mb-10 mx-5 md:mx-0 text-center md:text-left">Get Grocery News!</h3>
+                        <p class="mb-9 text-center md:text-left">Exclusive training tips, ticks, product deals and more.</p>
+                        <input type="email" placeholder="Enter email...." class="input input-bordered pr-32 mb-6 " required />
+                        <br>
+                        <div class="text-center md:text-left">
+                            <button class="bg-[#c12b35] border-0 px-12 py-4 text-2xl rounded-xl text-white">Subscribe</button>
+                        </div>
+                        
+                    </div>
+                 </div>
+            </div>
+             
+         </section>
     </main>
-    <footer>
-
+    <footer class="bg-[#179800] -mt-96">
+        <div class="container mx-auto flex justify-between pt-80 pb-32 flex-col gap-10 md:gap-0 p-6 md:flex-row">
+             <div class="md:w-1/3">
+                <img class="mb-6" src="./c2-assets/logo-footer.png" alt="">
+                <p class="text-white text-xl">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+             </div>
+             <div class="md:w-1/3">
+                <ul class="flex flex-col text-xl gap-4 ">
+                    <li><a href="#" class="text-white">Product</a></li>
+                    <li><a href="#" class="text-white">Services</a></li>
+                    <li><a href="#" class="text-white">Contact us</a></li>
+                </ul>
+             </div>
+             <div>
+                <p class="text-white text-xl">Follow Us</p>
+                <div class="flex gap-6">
+                    <i class="fa-brands fa-facebook text-white text-xl"></i>
+                    <i class="fa-brands fa-instagram text-white text-xl"></i>
+                    <i class="fa-brands fa-twitter text-white text-xl"></i>
+                    <i class="fa-brands fa-linkedin text-white text-xl"></i>
+                </div>
+             </div>
+        </div>
     </footer>
     
     
